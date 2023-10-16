@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(202, 191, 177);
+    /* height: 100vh; */
+}
+.container{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    min-height: 400px;
+}
+.full-width1{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.full-width1 img{
+    width: 80px;
+    margin-right: 1rem;
+}
+nav{
+    /* border: 1px solid red; */
+    width: 100%;
+
+}
+
+nav ul{
+    margin: 20px 0 0;
+    padding: 0;
+    border-radius: 4px;
+    background-color: #262626;
+    /* overflow: hidden; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    list-style: none;
+    /* display: inline-block; */
+}
+nav ul li a{
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover,
+.active
+{
+    background-color: #f15;
+    transition: all 1s;
+}
+.full-width2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.col-7{
+    width: 70%;
+    min-height: 400px;
+    /* background-color: #ccc; */
+}
+.col-3{
+    width: 28%;
+    min-height: 400px;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+    padding: 20px;
+    overflow: auto;
+    
+}
+.col-3::-webkit-scrollbar{
+    display: none;
+}
+.title{
+    text-align: center;
+}
+.text{
+    text-align: justify;
+    line-height: 1.5;
+    
+}
+.post{
+    background-color: #ccc;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+.post img{
+    width: 100%;
+}
+.post2{
+    margin-top: 20px;
+}
+.col-3 ul{
+    margin: 0;
+    padding: 0;
+}
+.col-3 ul li {
+    list-style: none;
+    padding: 8px;
+    border-bottom: 1px solid rgba(0,0,0,1);
+}
+.col-3 ul li:hover{
+    background-color: #f15;
+    transition: all 1s;
+    border-radius: 20px;
+    color: #fff;
+}
+.foother-text{
+    text-align: center;
+    font-weight: bold;
+    padding: 25px 0 0 ;
+}
+.foother-text:hover{
+    color: #f15;
+    transform: scale(1.2);
+}
+
+@media screen and (max-width:900px){
+    .container{
+        width: 100%;
+    }
+} 
+    
+@media screen and (max-width:700px){
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .full-width2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .col-3{
+        margin-top: 20px;
+        min-width: 300px;
+    }
+  
+}
