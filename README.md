@@ -22,7 +22,7 @@ The Informative Web Page template provides users with informative content presen
 
 ## Preview
 
-![Web Page Preview](./preview.png)
+![Web Page Preview](./img/Screenshot_2.jpg)
 
 You can see a live demo of the project [here](https://your-live-demo-link).
 
