@@ -24,7 +24,7 @@ The Informative Web Page template provides users with informative content presen
 
 ![Web Page Preview](./img/Screenshot_2.jpg)
 
-You can see a live demo of the project [here](https://your-live-demo-link).
+You can see a live demo of the project [here](https://media-quary5-iew9.vercel.app/).
 
 ## How to Use
 
